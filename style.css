@@ -15,9 +15,7 @@ header {
 
 header h1 {
   font-size: 3rem;
-  background: linear-gradient(to right, #ff4d6d, #ffb347);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000;  /* changed from gradient to solid black */
   margin: 0;
 }
 
@@ -120,3 +118,4 @@ section h2 {
     align-items: center;
   }
 }
+
