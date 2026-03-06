@@ -1,51 +1,122 @@
-body{
-font-family: Arial;
-margin:0;
-padding:0;
-background:#f4f4f4;
+/* General Settings */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  color: #333;
 }
 
-header{
-background:#333;
-color:white;
-text-align:center;
-padding:20px;
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
 }
 
-section{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:10px;
+header h1 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #ff4d6d, #ffb347);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
-h2{
-color:#333;
+header p {
+  font-size: 1.2rem;
+  color: #fff;
 }
 
-ul{
-list-style:none;
-padding:0;
+/* Sections */
+section {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-ul li{
-background:#eee;
-margin:5px;
-padding:10px;
-border-radius:5px;
+/* Section Headings */
+section h2 {
+  text-align: center;
+  color: #ff4d6d;
+  margin-bottom: 15px;
 }
 
-.project{
-background:#fafafa;
-padding:15px;
-margin-top:10px;
-border-left:5px solid red;
+/* Skills List */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-footer{
-text-align:center;
-background:#333;
-color:white;
-padding:10px;
-margin-top:20px;
+#skills li {
+  background-color: #66a6ff;
+  color: #fff;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Projects */
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.project-card h3 {
+  color: #ff4d6d;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff4d6d;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+  background-color: #ff1a44;
+}
+
+/* Contact Links */
+#contact a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #66a6ff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+#contact a:hover {
+  background-color: #3380ff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  #skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
