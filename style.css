@@ -66,6 +66,28 @@ h1 {
   margin-bottom: 12px;
 }
 
+/* Skills container */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.skill {
+  background: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.95rem;
+}
+.skill i {
+  font-size: 1.1rem;
+}
+
 /* Link Buttons */
 .link-btn {
   display: block;
@@ -92,5 +114,7 @@ h1 {
     font-size: 1rem;
     padding: 12px 0;
   }
+  .skill {
+    font-size: 0.85rem;
+  }
 }
-
