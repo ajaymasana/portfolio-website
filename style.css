@@ -8,7 +8,7 @@
 /* Body + Background */
 body {
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* premium gradient */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ body {
 /* Central container */
 .main-container {
   text-align: center;
-  background: #fff;
+  background: linear-gradient(145deg, #fefefe, #e0e0e0); /* subtle gradient card */
   padding: 30px 20px;
   border-radius: 15px;
   width: 90%;
@@ -93,3 +93,4 @@ h1 {
     padding: 12px 0;
   }
 }
+
