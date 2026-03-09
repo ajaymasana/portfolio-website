@@ -89,16 +89,22 @@ h1 {
 }
 
 /* Link Buttons */
-.link-btn {
-  display: block;
-  background-color: #0073e6;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  padding: 14px 0;
-  margin: 10px 0;
-  border-radius: 10px;
-  transition: 0.3s ease;
+.link-btn{
+display:block;
+background:linear-gradient(135deg,#0073e6,#00c6ff);
+color:white;
+text-decoration:none;
+font-size:1.1rem;
+padding:14px 0;
+margin:10px 0;
+border-radius:10px;
+transition:0.3s;
+font-weight:bold;
+}
+
+.link-btn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
 .link-btn:hover {
   background-color: #005bb5;
@@ -139,4 +145,13 @@ height:40px;
 font-size:14px;
 margin-top:5px;
 font-weight:bold;
+}
+.skill-box img{
+width:40px;
+height:40px;
+transition:0.3s;
+}
+
+.skill-box img:hover{
+transform:scale(1.2);
 }
