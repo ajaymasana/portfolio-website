@@ -155,3 +155,32 @@ transition:0.3s;
 .skill-box img:hover{
 transform:scale(1.2);
 }
+#theme-toggle{
+position:absolute;
+top:20px;
+right:20px;
+padding:6px 10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+}
+
+/* Dark mode */
+
+.dark-mode{
+background:#121212;
+color:white;
+}
+
+.dark-mode .main-container{
+background:#1e1e1e;
+}
+
+.dark-mode .info-heading{
+color:white;
+}
+
+.dark-mode .info-content{
+color:#ddd;
+}
