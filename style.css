@@ -118,3 +118,25 @@ h1 {
     font-size: 0.85rem;
   }
 }
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-top:10px;
+}
+
+.skill-box{
+text-align:center;
+}
+
+.skill-box img{
+width:40px;
+height:40px;
+}
+
+.skill-box p{
+font-size:14px;
+margin-top:5px;
+font-weight:bold;
+}
