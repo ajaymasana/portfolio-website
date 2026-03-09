@@ -11,7 +11,12 @@
 <body>
 
   <div class="main-container">
-<button id="theme-toggle">🌙</button>
+<div class="theme-switch">
+<label class="switch">
+<input type="checkbox" id="darkToggle">
+<span class="slider"></span>
+</label>
+</div>
     <!-- Profile Image -->
     <div class="photo-container">
       <img src="https://i.ibb.co/Tqb1wmqq/Gemini-Generated-Image-mrz96jmrz96jmrz9-1.png" alt="Ajay Masana Photo">
@@ -96,27 +101,19 @@ GitHub
 LinkedIn
 </a>
   </div>
+
 <script>
 
-const toggle = document.getElementById("theme-toggle");
+const toggle = document.getElementById("darkToggle");
 
-toggle.addEventListener("click", function() {
+toggle.addEventListener("change", function(){
 document.body.classList.toggle("dark-mode");
-
-if(document.body.classList.contains("dark-mode")){
-toggle.textContent="☀️";
-}else{
-toggle.textContent="🌙";
-}
-
 });
 
 </script>
 </body>
 </html>
 
-</body>
-</html>
 
 
 
